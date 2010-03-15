@@ -4,7 +4,7 @@
       name="Marketplace Client (MPC)">
    <release projectid="technology.epp.mpc" version="1.0"/>
    <introduction>
-     <html:div>Marketplace Client provides a rich client for installing solutions listed on Eclipse Marketplace.</html:div>
+     <html:div>Marketplace Client provides a rich client for installing solutions listed on Eclipse Marketplace.  MPC provides a workflow for finding and installing solutions, layering on top of the Eclipse P2 and providing a streamlined and simplified workflow that does not require users to enter and manage update sites.   </html:div>
    </introduction>
    <release_deliverables>
      <html:div>Release 1.0 will provide the basic functionality to navigate the solution catalog and allow a user to install an Eclipse-based solution with a 'single click'.</html:div>
@@ -24,13 +24,13 @@
    	<postamble><html:div>html content</html:div></postamble>
    </release_milestones>
    <target_environments>
-     <html:div>Some xhtml content here.  Make sure to use the prefix before the elements</html:div>
+     <html:div>The plan is to support the operating systems supported by the EPP packages.</html:div>
      <internationalization>
-          <html:div>Some xhtml content here.  Make sure to use the prefix before the elements</html:div>
+          <html:div>The content from Marketplace is English.</html:div>
      </internationalization>
    </target_environments>
    <compatibility_with_previous_releases>
-       <html:div>Some xhtml content here.  Make sure to use the prefix before the elements</html:div>
+       <html:div>This is the first release.</html:div>
    </compatibility_with_previous_releases>
    <themes_and_priorities>
      <preamble>
@@ -46,7 +46,7 @@
            ...(optional alternate) html...</deferred>
      </theme>
      <theme name="Design for Extensibility">
-        <description>...(optional) html...</description>
+        <description>Support will be provided for different external sources of solution listing catalogs (ex. Eclipse release train catalog, third party catalog, internal corporate catalog) </description>
         <committed bugzilla="...(recommended) bugzilla search url...">
            ...(optional alternate) html...</committed>
         <proposed bugzilla="...(recommended) bugzilla search url...">
