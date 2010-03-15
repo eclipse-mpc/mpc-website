@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
 <plan plan-format="1.0" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml"
       name="Marketplace Client (MPC)">
-   <release projectid="technology.epp.mpc" version="1.0"/>
+   <release projectid="technology.packaging.mpc" version="1.0"/>
    <introduction>
      <html:div>Marketplace Client provides a rich client for installing solutions listed on Eclipse Marketplace.  MPC provides a workflow for finding and installing solutions, layering on top of the Eclipse P2 and providing a streamlined and simplified workflow that does not require users to enter and manage update sites.   </html:div>
    </introduction>
