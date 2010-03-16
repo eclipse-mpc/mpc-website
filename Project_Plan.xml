@@ -2,60 +2,54 @@
 <?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
 <plan plan-format="1.0" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml"
       name="Marketplace Client (MPC)">
-   <release projectid="technology.packaging.mpc" version="1.0"/>
-   <introduction>
-     <html:div>Marketplace Client provides a rich client for installing solutions listed on Eclipse Marketplace.  MPC provides a workflow for finding and installing solutions, layering on top of the Eclipse P2 and providing a streamlined and simplified workflow that does not require users to enter and manage update sites.   </html:div>
-   </introduction>
-   <release_deliverables>
-     <html:div>Release 1.0 will provide the basic functionality to navigate the solution catalog and allow a user to install an Eclipse-based solution with a 'single click'.</html:div>
-   </release_deliverables>
-   <release_milestones>
-      <preamble>
-         <html:div></html:div>
-      </preamble>
-      <milestone date="3/17/2010" milestone="M6"><html:div>Feature completion will be March 19 and available as part of Helios M6</html:div></milestone>
-      <milestone date="5/5/2010" milestone="M7"><html:div>optional html</html:div></milestone>
-      <milestone date="5/19/2010" milestone="RC1"><html:div>optional html</html:div></milestone>
-      <milestone date="5/26/2010" milestone="RC2"/><milestone date="6/2/2010"
-      	milestone="RC3">
-</milestone>
-   	<milestone date="6/9/2010" milestone="RC4"></milestone>
-   	<milestone date="6/16/2010" milestone="Final"></milestone>
-   	<postamble><html:div>html content</html:div></postamble>
-   </release_milestones>
-   <target_environments>
-     <html:div>The plan is to support the operating systems supported by the EPP packages.</html:div>
-     <internationalization>
-          <html:div>The content from Marketplace is English.  No plans for internationalization in this release.</html:div>
-     </internationalization>
-   </target_environments>
-   <compatibility_with_previous_releases>
-       <html:div>This is the first release.</html:div>
-   </compatibility_with_previous_releases>
-   <themes_and_priorities>
-     <preamble>
-         <html:div>This is the first release of MPC so the focus is on provide the basic functionality to make it easy to install Eclipse solutions from an Eclipse workspace.</html:div>
-     </preamble>
-     <theme name="Appealing to the Broader Community">
-        <description>The goal is MPC will expose Eclipse based solutions to more developers and create a stronger community.</description>
-        <committed bugzilla="...(recommended) bugzilla search url...">
-           ...(optional alternate) html...</committed>
-        <proposed bugzilla="...(recommended) bugzilla search url...">
-           ...(optional alternate) html...</proposed>
-        <deferred bugzilla="...(recommended) bugzilla search url...">
-           ...(optional alternate) html...</deferred>
-     </theme>
-     <theme name="Design for Extensibility">
-        <description>Support will be provided for different external sources of solution listing catalogs (ex. Eclipse release train catalog, third party catalog, internal corporate catalog) </description>
-        <committed bugzilla="...(recommended) bugzilla search url...">
-           ...(optional alternate) html...</committed>
-        <proposed bugzilla="...(recommended) bugzilla search url...">
-           ...(optional alternate) html...</proposed>
-        <deferred bugzilla="...(recommended) bugzilla search url...">
-           ...(optional alternate) html...</deferred>
-     </theme>
-   </themes_and_priorities>
-   <appendix name="Project Refactoring">
-     ...html...
-   </appendix>	
- </plan>
+  <release projectid="technology.packaging.mpc" version="1.0"/>
+  <introduction>
+    <html:div>Marketplace Client provides a rich client for installing solutions listed on Eclipse Marketplace.  MPC provides a workflow for finding and installing solutions, layering on top of the Eclipse P2 and providing a streamlined and simplified workflow that does not require users to enter and manage update sites.   </html:div>
+  </introduction>
+  <release_deliverables>
+    <html:div>Release 1.0 will provide the basic functionality to navigate the solution catalog and allow a user to install an Eclipse-based solution with a 'single click'.</html:div>
+  </release_deliverables>
+  <release_milestones>
+    <preamble>
+      <html:div></html:div>
+    </preamble>
+    <milestone date="3/17/2010" milestone="M6"><html:div>Feature completion will be March 19 and available as part of Helios M6</html:div></milestone>
+    <milestone date="5/5/2010" milestone="M7"></milestone>
+    <milestone date="5/19/2010" milestone="RC1"></milestone>
+    <milestone date="5/26/2010" milestone="RC2"></milestone>
+    <milestone date="6/2/2010" milestone="RC3"></milestone>
+    <milestone date="6/9/2010" milestone="RC4"></milestone>
+    <milestone date="6/16/2010" milestone="Final"></milestone>
+    <postamble><html:div></html:div></postamble>
+  </release_milestones>
+  <target_environments>
+    <html:div>The plan is to support the operating systems supported by the EPP packages.</html:div>
+    <internationalization>
+      <html:div>The content from Marketplace is English.  No plans for internationalization in this release.</html:div>
+    </internationalization>
+  </target_environments>
+  <compatibility_with_previous_releases>
+    <html:div>This is the first release.</html:div>
+  </compatibility_with_previous_releases>
+  <themes_and_priorities>
+    <preamble>
+      <html:div>This is the first release of MPC so the focus is on provide the basic functionality to make it easy to install Eclipse solutions from an Eclipse workspace.</html:div>
+    </preamble>
+    <theme name="Appealing to the Broader Community">
+      <description>The goal is MPC will expose Eclipse based solutions to more developers and create a stronger community.</description>
+      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P1;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
+      <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
+      <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P3;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
+    </theme>
+    <theme name="Design for Extensibility">
+      <description>Support will be provided for different external sources of solution listing catalogs (ex. Eclipse release train catalog, third party catalog, internal corporate catalog) </description>
+      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P1;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
+      <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
+      <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P3;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
+    </theme>
+  </themes_and_priorities>
+  <!--
+  <appendix name="Project Refactoring">
+  </appendix>	
+  -->
+</plan>

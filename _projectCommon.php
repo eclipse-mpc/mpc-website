@@ -13,7 +13,9 @@
 	$Nav->setLinkList(array());
 	$Nav->addNavSeparator("Marketplace Client ", "/mpc", "_self", 3);
 	$Nav->addCustomNav("About This Project", "/projects/project_summary.php?projectid=technology.packaging.mpc", "_self", 3);
+	$Nav->addCustomNav("Support", "http://www.eclipse.org/forums/index.php?t=thread&frm_id=176", "_self", 3);
 	$Nav->addCustomNav("Getting Involved", "http://wiki.eclipse.org/EPP/MPC/Contributor_Guide", "_self", 3);
+	$Nav->addCustomNav("Plan", "http://eclipse.org/projects/project-plan.php?planurl=/mpc/Project_Plan.xml", "_self", 3);
 
 	# Define keywords, author and title here, or in each PHP page specifically
 	$pageKeywords	= "marketplace, client, p2, installer";
@@ -24,8 +26,10 @@
 	# To override and replace the navigation with your own, uncomment the line below.
 	$Menu->setMenuItemList(array());
 	$Menu->addMenuItem("Home", "/mpc", "_self");
+	$Menu->addMenuItem("Support", "http://www.eclipse.org/forums/index.php?t=thread&frm_id=176", "_self");
 	$Menu->addMenuItem("Getting Involved", "http://wiki.eclipse.org/EPP/MPC/Contributor_Guide", "_self", 3);
-	
+	$Menu->addMenuItem("Plan", "http://eclipse.org/projects/project-plan.php?planurl=/mpc/Project_Plan.xml", "_self", 3);
+		
 	# To define additional CSS or other pre-body headers
 	# $App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/default/style.css"/>');
 	
