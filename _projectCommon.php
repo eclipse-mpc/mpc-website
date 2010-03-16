@@ -24,7 +24,7 @@
 	# To override and replace the navigation with your own, uncomment the line below.
 	$Menu->setMenuItemList(array());
 	$Menu->addMenuItem("Home", "/mpc", "_self");
-	$Nav->addCustomNav("Getting Involved", "http://wiki.eclipse.org/EPP/MPC/Contributor_Guide", "_self", 3);
+	$Menu->addMenuItem("Getting Involved", "http://wiki.eclipse.org/EPP/MPC/Contributor_Guide", "_self", 3);
 	
 	# To define additional CSS or other pre-body headers
 	# $App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/default/style.css"/>');
