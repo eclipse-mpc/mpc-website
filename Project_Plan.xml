@@ -13,9 +13,9 @@
     <preamble>
       <html:div></html:div>
     </preamble>
-    <milestone date="3/17/2010" milestone="M6"><html:div>Feature completion will be March 19 and available as part of Helios M6</html:div></milestone>
-    <milestone date="5/5/2010" milestone="M7"></milestone>
-    <milestone date="5/19/2010" milestone="RC1"></milestone>
+    <milestone date="3/17/2010" milestone="M6"><html:div>Feature completion, will be available as part of Helios M6</html:div></milestone>
+    <milestone date="5/5/2010" milestone="M7"><html:div>UI streamlining in response to community feedback</html:div></milestone>
+    <milestone date="5/19/2010" milestone="RC1"><html:div>Updates to documentation</html:div></milestone>
     <milestone date="5/26/2010" milestone="RC2"></milestone>
     <milestone date="6/2/2010" milestone="RC3"></milestone>
     <milestone date="6/9/2010" milestone="RC4"></milestone>
