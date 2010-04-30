@@ -14,13 +14,20 @@
       <html:div></html:div>
     </preamble>
     <milestone date="3/17/2010" milestone="M6"><html:div>Feature completion, will be available as part of Helios M6</html:div></milestone>
-    <milestone date="5/5/2010" milestone="M7"><html:div>UI streamlining in response to community feedback</html:div></milestone>
-    <milestone date="5/19/2010" milestone="RC1"><html:div>Updates to documentation</html:div></milestone>
-    <milestone date="5/26/2010" milestone="RC2"></milestone>
-    <milestone date="6/2/2010" milestone="RC3"></milestone>
-    <milestone date="6/9/2010" milestone="RC4"></milestone>
-    <milestone date="6/16/2010" milestone="Final"></milestone>
-    <postamble><html:div></html:div></postamble>
+    <milestone date="5/12/2010" milestone="M7"><html:div>UI streamlining in response to community feedback</html:div></milestone>
+    <milestone date="5/26/2010" milestone="RC1"><html:div>Updates to documentation</html:div></milestone>
+    <milestone date="6/2/2010" milestone="RC2"><html:div>Release Candidate</html:div></milestone>
+    <milestone date="6/9/2010" milestone="RC3"><html:div>Release Candidate</html:div></milestone>
+    <milestone date="6/16/2010" milestone="RC4"><html:div>Release Candidate</html:div></milestone>
+    <milestone date="6/23/2010" milestone="Final"><html:div>First Release (1.0)</html:div></milestone>
+	<postamble>
+		<html:div xmlns="http://www.w3.org/1999/xhtml">
+			<p><a name="ramp-down"/><b>Ramp Down</b></p>
+			<p>After RC1 is released, builds will be produced weekly until the final 1.0 release. In the RC
+			phase only bugs marked P1 or higher or severity major or higher will be fixed. APIs will not
+			change except to address critical fixes requiring approval of at least two committers.</p>
+		</html:div> 
+	</postamble>
   </release_milestones>
   <target_environments>
     <html:div>The plan is to support the operating systems supported by the EPP packages.</html:div>
