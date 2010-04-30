@@ -22,7 +22,7 @@
     <milestone date="6/23/2010" milestone="Final"><html:div>First Release (1.0)</html:div></milestone>
 	<postamble>
 		<html:div xmlns="http://www.w3.org/1999/xhtml">
-			<p><a name="ramp-down"/><b>Ramp Down</b></p>
+			<p><a name="ramp-down"></a><b>Ramp Down</b></p>
 			<p>After RC1 is released, builds will be produced weekly until the final 1.0 release. In the RC
 			phase only bugs marked P1 or higher or severity major or higher will be fixed. APIs will not
 			change except to address critical fixes requiring approval of at least two committers.</p>
