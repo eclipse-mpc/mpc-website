@@ -33,7 +33,7 @@
 		<p>Five - Accept the license and hit Finish<br/><img src="images/newNoteworthy/license2.png"/></p>
 		<p>Six - Restart Eclipse<br/><img src="images/newNoteworthy/restart.png"/></p>
 		<p>Seven - Open the Erlide Perspective<br/><img src="images/newNoteworthy/perspective.png"/></p>
-		<p>Start Coding in Erlang (OK, I am not an Erlang developer but hopefully you get the idea)<br/><img src="images/newNoteworthy/erlide.jpg"/></p>
+		<p>Start Coding in Erlang (OK, I am not an Erlang developer but hopefully you get the idea)</p>
 		<p>Give MPC a try and let us know your feedback. We want to make sure we get it right for the Helios launch. If you have an Eclipse product, make sure you get it listed on the <a href="http://marketplace.eclipse.org/quickstart/">Eclipse Marketplace in time for Helios.</a></p>
 	</div>
 	</div>
