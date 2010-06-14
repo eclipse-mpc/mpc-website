@@ -26,13 +26,13 @@
 		
 		<p>Eclipse Marketplace Client  (MPC) is a rich client interface for browsing and installing the Eclipse based solutions listed on the Eclipse Marketplace portal.  It is a new feature that allows Eclipse users to discover and install Eclipse solutions directly into their Eclipse installation. </p>
 		<p>MPC is included in all of the packages available from the Eclipse download page (except the Classic Package).  It is accessible from the Help menu.   Below is a brief step by step example of using MPC.</p>
-		<p>One - Open the MPC from the Help Menu.<br/><img src="images/newNoteworthy/mpc-client.jpg"/></p>
-		<p>Two - Search for Erlang and find Erlide<br/><img src="images/newNoteworthy/erlang.jpg"/></p>
-		<p>Three - Select Install<br/><img src="images/newNoteworthy/erlang-install.jpg"/></p>
-		<p>Four - Erlang is now 'Install Pending', I could install multiple products at the same time but I will only do one here; Select Next<br/><img src="images/newNoteworthy/next.jpg"/></p>
-		<p>Five - Accept the license and hit Finish<br/><img src="images/newNoteworthy/license2.jpg"/></p>
-		<p>Six - Restart Eclipse<br/><img src="images/newNoteworthy/restart.jpg"/></p>
-		<p>Seven - Open the Erlide Perspective<br/><img src="images/newNoteworthy/perspective.jpg"/></p>
+		<p>One - Open the MPC from the Help Menu.<br/><img src="images/newNoteworthy/mpc-client.png"/></p>
+		<p>Two - Search for Erlang and find Erlide<br/><img src="images/newNoteworthy/erlang.png"/></p>
+		<p>Three - Select Install<br/><img src="images/newNoteworthy/erlang-install.png"/></p>
+		<p>Four - Erlang is now 'Install Pending', I could install multiple products at the same time but I will only do one here; Select Next<br/><img src="images/newNoteworthy/next.png"/></p>
+		<p>Five - Accept the license and hit Finish<br/><img src="images/newNoteworthy/license2.png"/></p>
+		<p>Six - Restart Eclipse<br/><img src="images/newNoteworthy/restart.png"/></p>
+		<p>Seven - Open the Erlide Perspective<br/><img src="images/newNoteworthy/perspective.png"/></p>
 		<p>Start Coding in Erlang (OK, I am not an Erlang developer but hopefully you get the idea)<br/><img src="images/newNoteworthy/erlide.jpg"/></p>
 		<p>Give MPC a try and let us know your feedback. We want to make sure we get it right for the Helios launch. If you have an Eclipse product, make sure you get it listed on the <a href="http://marketplace.eclipse.org/quickstart/">Eclipse Marketplace in time for Helios.</a></p>
 	</div>
