@@ -1,0 +1,736 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>CatalogViewer usage details</title>
+</head>
+<body>
+<h3>CatalogViewer usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer has 34 total references to 24 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer">
+<span>[+] </span>CatalogViewer
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>EXTENDS</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>RETURN_TYPE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.doCreateViewer(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.CatalogViewer(org.eclipse.equinox.internal.p2.discovery.Catalog, org.eclipse.jface.window.IShellProvider, org.eclipse.jface.operation.IRunnableContext, org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogConfiguration) : void">
+<span>[+] </span>CatalogViewer(Catalog, IShellProvider, IRunnableContext, CatalogConfiguration) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>SUPER_CONSTRUCTORMETHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.MarketplaceViewer(Catalog, IShellProvider, MarketplaceWizard)</td>
+<td align="center">116</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.addSelectionChangedListener(org.eclipse.jface.viewers.ISelectionChangedListener) : void">
+<span>[+] </span>addSelectionChangedListener(ISelectionChangedListener) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.createControl(Composite)</td>
+<td align="center">155</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.catalogUpdated(boolean, boolean) : void">
+<span>[+] </span>catalogUpdated(boolean, boolean) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INVOKED_SPECIAL</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.catalogUpdated(boolean, boolean)</td>
+<td align="center">161</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.catalogUpdated(boolean, boolean)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.computeStatus(java.lang.reflect.InvocationTargetException, java.lang.String) : org.eclipse.core.runtime.IStatus">
+<span>[+] </span>computeStatus(InvocationTargetException, String) : IStatus
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doQuery(Market, Category, String)</td>
+<td align="center">278</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.doCreateContentProvider() : org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.CatalogContentProvider">
+<span>[+] </span>doCreateContentProvider() : CatalogViewerCatalogContentProvider
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateContentProvider()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.doCreateFilter() : org.eclipse.equinox.internal.p2.ui.discovery.util.PatternFilter">
+<span>[+] </span>doCreateFilter() : PatternFilter
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateFilter()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.doCreateHeaderControls(org.eclipse.swt.widgets.Composite) : void">
+<span>[+] </span>doCreateHeaderControls(Composite) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateHeaderControls(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.doCreateViewer(org.eclipse.swt.widgets.Composite) : org.eclipse.jface.viewers.StructuredViewer">
+<span>[+] </span>doCreateViewer(Composite) : StructuredViewer
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INVOKED_SPECIAL</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateViewer(Composite)</td>
+<td align="center">356</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateViewer(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.doCreateViewerItem(org.eclipse.swt.widgets.Composite, java.lang.Object) : org.eclipse.equinox.internal.p2.ui.discovery.util.ControlListItem">
+<span>[+] </span>doCreateViewerItem(Composite, Object) : ControlListItem
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INVOKED_SPECIAL</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateViewerItem(Composite, Object)</td>
+<td align="center">204</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateViewerItem(Composite, Object)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.doFilter(org.eclipse.equinox.internal.p2.discovery.model.CatalogItem) : boolean">
+<span>[+] </span>doFilter(CatalogItem) : boolean
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doFilter(CatalogItem)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.getCatalog() : org.eclipse.equinox.internal.p2.discovery.Catalog">
+<span>[+] </span>getCatalog() : Catalog
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INVOKED_SPECIAL</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.getCatalog()</td>
+<td align="center">312</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.getCatalog()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.getCheckedItems() : java.util.List">
+<span>[+] </span>getCheckedItems() : List
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.getCheckedItems()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.getConfiguration() : org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogConfiguration">
+<span>[+] </span>getConfiguration() : CatalogConfiguration
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INVOKED_SPECIAL</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.getConfiguration()</td>
+<td align="center">307</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.getConfiguration()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.getInstalledFeatures(org.eclipse.core.runtime.IProgressMonitor) : java.util.Set">
+<span>[+] </span>getInstalledFeatures(IProgressMonitor) : Set
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.getInstalledFeatures(IProgressMonitor)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.getResources() : org.eclipse.equinox.internal.p2.ui.discovery.wizards.DiscoveryResources">
+<span>[+] </span>getResources() : DiscoveryResources
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateViewerItem(Composite, Object)</td>
+<td align="center">191</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateViewerItem(Composite, Object)</td>
+<td align="center">188</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.getSelection() : org.eclipse.jface.viewers.IStructuredSelection">
+<span>[+] </span>getSelection() : IStructuredSelection
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.getSelection()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.modifySelection(org.eclipse.equinox.internal.p2.discovery.model.CatalogItem, boolean) : void">
+<span>[+] </span>modifySelection(CatalogItem, boolean) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INVOKED_SPECIAL</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.modifySelection(CatalogItem, Operation)</td>
+<td align="center">375</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.modifySelection(CatalogItem, boolean)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.postDiscovery() : void">
+<span>[+] </span>postDiscovery() : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.postDiscovery()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.refresh() : void">
+<span>[+] </span>refresh() : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.updateCatalog()</td>
+<td align="center">400</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.updateCatalog() : void">
+<span>[+] </span>updateCatalog() : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INVOKED_SPECIAL</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.updateCatalog()</td>
+<td align="center">398</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.updateCatalog()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.verifyUpdateSiteAvailability() : void">
+<span>[+] </span>verifyUpdateSiteAvailability() : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doQuery(Market, Category, String)</td>
+<td align="center">275</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.context">
+<span>[+] </span>context
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doQuery(Market, Category, String)</td>
+<td align="center">237</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.shellProvider">
+<span>[+] </span>shellProvider
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateViewerItem(Composite, Object)</td>
+<td align="center">188</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateViewerItem(Composite, Object)</td>
+<td align="center">191</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>

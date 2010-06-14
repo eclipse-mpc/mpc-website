@@ -1,0 +1,1649 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>CatalogItem usage details</title>
+</head>
+<body>
+<h3>CatalogItem usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.equinox.internal.p2.discovery.model.CatalogItem has 170 total references to 35 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem">
+<span>[+] </span>CatalogItem
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>CASTS</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.installErrorReport(IProgressMonitor, IStatus, Set, IInstallableUnit[], String)</td>
+<td align="center">471</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.checkForUpdates(IProgressMonitor)</td>
+<td align="center">129</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.maybeAddCatalogItem(MarketplaceCategory)</td>
+<td align="center">280</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.checkForUnavailable(List)</td>
+<td align="center">349</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.AbstractProvisioningOperation.getDescriptorIds(IMetadataRepository)</td>
+<td align="center">129</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.ResolveFeatureNamesOperation.run(IProgressMonitor)</td>
+<td align="center">55</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.AbstractProvisioningOperation.addRepositories(SubMonitor)</td>
+<td align="center">74</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateViewerItem(Composite, Object)</td>
+<td align="center">185</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModelStateSerializer.serialize()</td>
+<td align="center">47</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.3.run(IProgressMonitor)</td>
+<td align="center">251</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.ItemButtonController.isItemAvailable()</td>
+<td align="center">182</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewerSorter.getCategory(Object)</td>
+<td align="center">75</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.getCatalogItemEntries()</td>
+<td align="center">98</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.ItemButtonController.isItemInstalled()</td>
+<td align="center">178</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.getCheckedItems()</td>
+<td align="center">412</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.isSelected()</td>
+<td align="center">253</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.ProvisioningJobListener.1.run(IProgressMonitor)</td>
+<td align="center">55</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.initializeInitialSelection()</td>
+<td align="center">158</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.computeNewInstallCatalogItems()</td>
+<td align="center">597</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModelStateSerializer.deserialize(IProgressMonitor, String, Map)</td>
+<td align="center">83</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.getOperation()</td>
+<td align="center">257</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewerSorter.compare(Viewer, Object, Object)</td>
+<td align="center">48</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewerSorter.compare(Viewer, Object, Object)</td>
+<td align="center">47</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.computeOperationToItem()</td>
+<td align="center">395</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>DECLARED_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.CatalogItemEntry.item</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.ProvisioningJobListener.1.1.val$item</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.1.val$connector</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.connector</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>DECLARED_PARAMETERIZED_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.AbstractProvisioningOperation.items</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.ProvisioningJobListener.installItems</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.operationNewInstallItems</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.4.items</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.itemToOperation</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>DECLARED_PARAMETERIZED_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.installErrorReport(IProgressMonitor, IStatus, Set, IInstallableUnit[], String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.installErrorReport(IProgressMonitor, IStatus, Set, IInstallableUnit[], String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.AbstractProvisioningOperation.AbstractProvisioningOperation(Collection)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.ProfileChangeOperationComputer(ProfileChangeOperationComputer.OperationType, Collection, Set, URI, ProfileChangeOperationComputer.ResolutionStrategy)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.ResolveFeatureNamesOperation.ResolveFeatureNamesOperation(List)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.getCheckedItems()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.computeOperationToItem()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.computeNewInstallCatalogItems()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.getSelectedCatalogItems()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.getItemToOperation()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.ProvisioningJobListener.ProvisioningJobListener(Set)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>DECLARED_PARAMETERIZED_TYPE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>DECLARED_PARAMETERIZED_VARIABLE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.performDiscovery(MarketplaceCatalog.DiscoveryOperation, IProgressMonitor)</td>
+<td align="center">291</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.initializeInitialSelection()</td>
+<td align="center">156</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.getSelectedCatalogItems()</td>
+<td align="center">313</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.computeNewInstallCatalogItems()</td>
+<td align="center">581</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.computeNewInstallCatalogItems()</td>
+<td align="center">582</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.computeNewInstallCatalogItems()</td>
+<td align="center">595</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.getCatalogItemEntries()</td>
+<td align="center">97</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.computeOperationToItem()</td>
+<td align="center">386</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.computeOperationToItem()</td>
+<td align="center">390</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.computeOperationToItem()</td>
+<td align="center">384</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.computeOperationToItem()</td>
+<td align="center">385</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.updateProfileChangeOperation()</td>
+<td align="center">477</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.computeProvisioningOperationViability()</td>
+<td align="center">369</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModelStateSerializer.serialize()</td>
+<td align="center">42</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.computeProvisioningOperationViability()</td>
+<td align="center">356</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.computeProvisioningOperationViability()</td>
+<td align="center">359</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.updateProfileChangeOperation()</td>
+<td align="center">478</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.getCheckedItems()</td>
+<td align="center">409</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.updateProfileChangeOperation()</td>
+<td align="center">480</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.getCheckedItems()</td>
+<td align="center">410</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>EXTENDS</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceNodeCatalogItem</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INSTANCEOF</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateViewerItem(Composite, Object)</td>
+<td align="center">184</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewerSorter.getCategory(Object)</td>
+<td align="center">74</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INSTANTIATION</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.addCatalogItem(MarketplaceCategory)</td>
+<td align="center">288</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>LOCAL_VAR_DECLARED</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.installErrorReport(IProgressMonitor, IStatus, Set, IInstallableUnit[], String)</td>
+<td align="center">471</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.addCatalogItem(MarketplaceCategory)</td>
+<td align="center">288</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.checkForUpdates(IProgressMonitor)</td>
+<td align="center">129</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.maybeAddCatalogItem(MarketplaceCategory)</td>
+<td align="center">280</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.ResolveFeatureNamesOperation.run(IProgressMonitor)</td>
+<td align="center">55</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.AbstractProvisioningOperation.addRepositories(SubMonitor)</td>
+<td align="center">74</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.AbstractProvisioningOperation.getDescriptorIds(IMetadataRepository)</td>
+<td align="center">129</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.checkForUnavailable(List)</td>
+<td align="center">349</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModelStateSerializer.deserialize(IProgressMonitor, String, Map)</td>
+<td align="center">83</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.getCatalogItemEntries()</td>
+<td align="center">98</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.ProvisioningJobListener.1.run(IProgressMonitor)</td>
+<td align="center">55</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.3.run(IProgressMonitor)</td>
+<td align="center">251</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewerSorter.compare(Viewer, Object, Object)</td>
+<td align="center">47</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewerSorter.compare(Viewer, Object, Object)</td>
+<td align="center">48</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateViewerItem(Composite, Object)</td>
+<td align="center">185</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>PARAMETER</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.createIcon(CatalogItem, Node)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.AbstractProvisioningOperation.getFeatureIds(CatalogItem)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.AbstractTagFilter.select(CatalogItem)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.hasTooltip(CatalogItem)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceFilter.select(CatalogItem)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.getOperation(CatalogItem)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doFilter(CatalogItem)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.ProvisioningJobListener.1.1.1(new ProvisioningJobListener(){}, CatalogItem)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.createItemEntry(CatalogItem, Operation)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.AbstractTagFilter.hasSelectedTag(CatalogItem)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.select(CatalogItem, Operation)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.CatalogItemEntry.CatalogItemEntry(CatalogItem, Operation)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.modifySelection(CatalogItem, Operation)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.modifySelection(CatalogItem, boolean)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.1.1(DiscoveryItem, CatalogItem)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>RETURN_TYPE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.CatalogItemEntry.getItem()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.CatalogItem() : void">
+<span>[+] </span>CatalogItem() : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>CONSTRUCTOR_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.addCatalogItem(MarketplaceCategory)</td>
+<td align="center">288</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceNodeCatalogItem.MarketplaceNodeCatalogItem()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>SUPER_CONSTRUCTORMETHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceNodeCatalogItem.MarketplaceNodeCatalogItem()</td>
+<td align="center">21</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.addPropertyChangeListener(java.beans.PropertyChangeListener) : void">
+<span>[+] </span>addPropertyChangeListener(PropertyChangeListener) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.DiscoveryItem(Composite, int, DiscoveryResources, IShellProvider, IMarketplaceWebBrowser, CatalogItem, MarketplaceViewer)</td>
+<td align="center">95</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.addTag(org.eclipse.equinox.internal.p2.discovery.model.Tag) : void">
+<span>[+] </span>addTag(Tag) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.handleSearchResult(MarketplaceCategory, SearchResult, IProgressMonitor)</td>
+<td align="center">170</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.getAvailable() : java.lang.Boolean">
+<span>[+] </span>getAvailable() : Boolean
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.ItemButtonController.isItemAvailable()</td>
+<td align="center">182</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.getCategory() : org.eclipse.equinox.internal.p2.discovery.model.CatalogCategory">
+<span>[+] </span>getCategory() : CatalogCategory
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewerSorter.getCategory(Object)</td>
+<td align="center">75</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateViewerItem(Composite, Object)</td>
+<td align="center">189</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.getDescription() : java.lang.String">
+<span>[+] </span>getDescription() : String
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.createContent()</td>
+<td align="center">165</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.getIcon() : org.eclipse.equinox.internal.p2.discovery.model.Icon">
+<span>[+] </span>getIcon() : Icon
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.createContent()</td>
+<td align="center">120</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.createContent()</td>
+<td align="center">118</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.getId() : java.lang.String">
+<span>[+] </span>getId() : String
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewerSorter.compare(Viewer, Object, Object)</td>
+<td align="center">62</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.getInstallableUnits() : java.util.List">
+<span>[+] </span>getInstallableUnits() : List
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.8.run()</td>
+<td align="center">198</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.ResolveFeatureNamesOperation.run(IProgressMonitor)</td>
+<td align="center">56</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.AbstractProvisioningOperation.getFeatureIds(CatalogItem)</td>
+<td align="center">143</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.ItemButtonController.updateButtonState()</td>
+<td align="center">134</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.hasInstallMetadata()</td>
+<td align="center">227</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModel.computeChildren(SelectionModel.CatalogItemEntry)</td>
+<td align="center">117</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.getLicense() : java.lang.String">
+<span>[+] </span>getLicense() : String
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.createProviderLabel(Composite)</td>
+<td align="center">238</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.getName() : java.lang.String">
+<span>[+] </span>getName() : String
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.checkForUnavailable(List)</td>
+<td align="center">365</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.checkForUnavailable(List)</td>
+<td align="center">371</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.FeatureSelectionWizardPage.1.compare(Viewer, Object, Object)</td>
+<td align="center">195</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.createContent()</td>
+<td align="center">146</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.FeatureSelectionWizardPage.1.compare(Viewer, Object, Object)</td>
+<td align="center">196</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.FeatureSelectionWizardPage.LabelProvider.getText(Object)</td>
+<td align="center">105</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewerSorter.compare(Viewer, Object, Object)</td>
+<td align="center">59</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewerSorter.compare(Viewer, Object, Object)</td>
+<td align="center">57</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.getOverview() : org.eclipse.equinox.internal.p2.discovery.model.Overview">
+<span>[+] </span>getOverview() : Overview
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.createContent()</td>
+<td align="center">156</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.hasTooltip(CatalogItem)</td>
+<td align="center">242</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.hasTooltip(CatalogItem)</td>
+<td align="center">243</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.getProvider() : java.lang.String">
+<span>[+] </span>getProvider() : String
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.createProviderLabel(Composite)</td>
+<td align="center">237</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.getSiteUrl() : java.lang.String">
+<span>[+] </span>getSiteUrl() : String
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.checkForUnavailable(List)</td>
+<td align="center">371</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.AbstractProvisioningOperation.addRepositories(SubMonitor)</td>
+<td align="center">75</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.operations.AbstractProvisioningOperation.getDescriptorIds(IMetadataRepository)</td>
+<td align="center">131</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.hasInstallMetadata()</td>
+<td align="center">227</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.FeatureSelectionWizardPage.LabelProvider.getStyledText(Object)</td>
+<td align="center">71</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.getSource() : org.eclipse.equinox.internal.p2.discovery.AbstractCatalogSource">
+<span>[+] </span>getSource() : AbstractCatalogSource
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.createContent()</td>
+<td align="center">120</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.createContent()</td>
+<td align="center">156</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.getTags() : java.util.Set">
+<span>[+] </span>getTags() : Set
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.AbstractTagFilter.hasSelectedTag(CatalogItem)</td>
+<td align="center">55</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.isInstalled() : boolean">
+<span>[+] </span>isInstalled() : boolean
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.checkForUpdates(IProgressMonitor)</td>
+<td align="center">134</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.createContent()</td>
+<td align="center">196</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.createContent()</td>
+<td align="center">148</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.ItemButtonController.isItemInstalled()</td>
+<td align="center">178</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.SelectionModelStateSerializer.deserialize(IProgressMonitor, String, Map)</td>
+<td align="center">88</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.isSelected() : boolean">
+<span>[+] </span>isSelected() : boolean
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.isSelected()</td>
+<td align="center">253</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.removePropertyChangeListener(java.beans.PropertyChangeListener) : void">
+<span>[+] </span>removePropertyChangeListener(PropertyChangeListener) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.1.widgetDisposed(DisposeEvent)</td>
+<td align="center">98</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.setAvailable(java.lang.Boolean) : void">
+<span>[+] </span>setAvailable(Boolean) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.8.run()</td>
+<td align="center">200</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.checkForUpdates(IProgressMonitor)</td>
+<td align="center">150</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.8.run()</td>
+<td align="center">218</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.setCategoryId(java.lang.String) : void">
+<span>[+] </span>setCategoryId(String) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.handleSearchResult(MarketplaceCategory, SearchResult, IProgressMonitor)</td>
+<td align="center">166</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.addCatalogItem(MarketplaceCategory)</td>
+<td align="center">292</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.setDescription(java.lang.String) : void">
+<span>[+] </span>setDescription(String) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.handleSearchResult(MarketplaceCategory, SearchResult, IProgressMonitor)</td>
+<td align="center">202</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.handleSearchResult(MarketplaceCategory, SearchResult, IProgressMonitor)</td>
+<td align="center">200</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.setIcon(org.eclipse.equinox.internal.p2.discovery.model.Icon) : void">
+<span>[+] </span>setIcon(Icon) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.createIcon(CatalogItem, Node)</td>
+<td align="center">302</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.setId(java.lang.String) : void">
+<span>[+] </span>setId(String) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.addCatalogItem(MarketplaceCategory)</td>
+<td align="center">291</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.handleSearchResult(MarketplaceCategory, SearchResult, IProgressMonitor)</td>
+<td align="center">164</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.setInstallableUnits(java.util.List) : void">
+<span>[+] </span>setInstallableUnits(List) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.handleSearchResult(MarketplaceCategory, SearchResult, IProgressMonitor)</td>
+<td align="center">185</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.setInstalled(boolean) : void">
+<span>[+] </span>setInstalled(boolean) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.handleSearchResult(MarketplaceCategory, SearchResult, IProgressMonitor)</td>
+<td align="center">254</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.setLicense(java.lang.String) : void">
+<span>[+] </span>setLicense(String) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.handleSearchResult(MarketplaceCategory, SearchResult, IProgressMonitor)</td>
+<td align="center">175</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.setName(java.lang.String) : void">
+<span>[+] </span>setName(String) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.handleSearchResult(MarketplaceCategory, SearchResult, IProgressMonitor)</td>
+<td align="center">165</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.setOverview(org.eclipse.equinox.internal.p2.discovery.model.Overview) : void">
+<span>[+] </span>setOverview(Overview) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.handleSearchResult(MarketplaceCategory, SearchResult, IProgressMonitor)</td>
+<td align="center">221</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.setProvider(java.lang.String) : void">
+<span>[+] </span>setProvider(String) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.handleSearchResult(MarketplaceCategory, SearchResult, IProgressMonitor)</td>
+<td align="center">204</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.setSelected(boolean) : void">
+<span>[+] </span>setSelected(boolean) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.initializeInitialSelection()</td>
+<td align="center">158</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.setSiteUrl(java.lang.String) : void">
+<span>[+] </span>setSiteUrl(String) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.handleSearchResult(MarketplaceCategory, SearchResult, IProgressMonitor)</td>
+<td align="center">211</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.setSource(org.eclipse.equinox.internal.p2.discovery.AbstractCatalogSource) : void">
+<span>[+] </span>setSource(AbstractCatalogSource) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.addCatalogItem(MarketplaceCategory)</td>
+<td align="center">289</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.handleSearchResult(MarketplaceCategory, SearchResult, IProgressMonitor)</td>
+<td align="center">174</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.equinox.internal.p2.discovery.model.CatalogItem.id">
+<span>[+] </span>id
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceNodeCatalogItem.equals(Object)</td>
+<td align="center">68</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceNodeCatalogItem.equals(Object)</td>
+<td align="center">72</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceNodeCatalogItem.hashCode()</td>
+<td align="center">52</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceNodeCatalogItem.equals(Object)</td>
+<td align="center">69</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>
