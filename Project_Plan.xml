@@ -2,28 +2,28 @@
 <?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
 <plan plan-format="1.0" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml"
       name="Marketplace Client (MPC)">
-  <release projectid="technology.packaging.mpc" version="1.0"/>
+  <release projectid="technology.packaging.mpc" version="1.1"/>
   <introduction>
     <html:div>Marketplace Client provides a rich client for installing solutions listed on Eclipse Marketplace.  MPC provides a workflow for finding and installing solutions, layering on top of the Eclipse P2 and providing a streamlined and simplified workflow that does not require users to enter and manage update sites.   </html:div>
   </introduction>
   <release_deliverables>
-    <html:div>Release 1.0 will provide the basic functionality to navigate the solution catalog and allow a user to install an Eclipse-based solution with a 'single click'.</html:div>
+    <html:div>Release 1.1 will will update the functionality of the existing MPC to improve the usability and make it easier for more people to use MPC.</html:div>
   </release_deliverables>
   <release_milestones>
     <preamble>
       <html:div></html:div>
     </preamble>
-    <milestone date="3/17/2010" milestone="M6"><html:div>Feature completion, will be available as part of Helios M6</html:div></milestone>
-    <milestone date="5/5/2010" milestone="M7"><html:div>UI streamlining in response to community feedback</html:div></milestone>
-    <milestone date="5/19/2010" milestone="RC1"><html:div>Updates to documentation</html:div></milestone>
-    <milestone date="5/26/2010" milestone="RC2"><html:div>Release Candidate</html:div></milestone>
-    <milestone date="6/2/2010" milestone="RC3"><html:div>Release Candidate</html:div></milestone>
-    <milestone date="6/9/2010" milestone="RC4"><html:div>Release Candidate</html:div></milestone>
-    <milestone date="6/16/2010" milestone="Final"><html:div>First Release (1.0)</html:div></milestone>
+    <milestone date="3/18/2011" milestone="M6"><html:div>Feature completion, will be available as part of Indigo M6</html:div></milestone>
+    <milestone date="5/6/2011" milestone="M7"><html:div>Response to community feedback</html:div></milestone>
+    <milestone date="5/20/2011" milestone="RC1"><html:div>Updates to documentation</html:div></milestone>
+    <milestone date="5/27/2011" milestone="RC2"><html:div>Release Candidate</html:div></milestone>
+    <milestone date="6/3/2011" milestone="RC3"><html:div>Release Candidate</html:div></milestone>
+    <milestone date="6/10/2011" milestone="RC4"><html:div>Release Candidate</html:div></milestone>
+    <milestone date="6/22/2011" milestone="Final"><html:div>First Release (1.1)</html:div></milestone>
 	<postamble>
 		<html:div xmlns="http://www.w3.org/1999/xhtml">
 			<p><a name="ramp-down"><b>Ramp Down</b></a></p>
-			<p>After RC1 is released, builds will be produced weekly until the final 1.0 release. In the RC
+			<p>After RC1 is released, builds will be produced weekly until the final 1.1 release. In the RC
 			phase only bugs marked P1 or higher or severity major or higher will be fixed. APIs will not
 			change except to address critical fixes requiring approval of at least two committers.</p>
 		</html:div> 
@@ -36,20 +36,20 @@
     </internationalization>
   </target_environments>
   <compatibility_with_previous_releases>
-    <html:div>This is the first release.</html:div>
+    <html:div>Release 1.1 will be compatible with Eclipse 3.6, Eclipse 3.7 and Eclipse 4.0.</html:div>
   </compatibility_with_previous_releases>
   <themes_and_priorities>
     <preamble>
-      <html:div>This is the first release of MPC so the focus is on provide the basic functionality to make it easy to install Eclipse solutions from an Eclipse workspace.</html:div>
+      <html:div>This release of MPC is focused on making it easier for more people to use Marketplace Client.</html:div>
     </preamble>
-    <theme name="Appealing to the Broader Community">
-      <description>The goal is MPC will expose Eclipse based solutions to more developers and create a stronger community.</description>
+    <theme name="Get More People to Use">
+      <description>The current version of MPC requires the user to know that the Marketplace Client is accessible from the Eclipse Help menu.   We want to implement features that make MPC accessible from other sources..</description>
       <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P1;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
       <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P3;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
     </theme>
-    <theme name="Design for Extensibility">
-      <description>Support will be provided for different external sources of solution listing catalogs (ex. Eclipse release train catalog, third party catalog, internal corporate catalog) </description>
+    <theme name="Usability">
+      <description>Implement high priority features that make MPC more usable for end-users. </description>
       <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P1;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
       <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P3;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
