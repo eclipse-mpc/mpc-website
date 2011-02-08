@@ -45,8 +45,8 @@
     <theme name="Get More People to Use MPC">
       <description><html:div>The current version of MPC requires the user to know that the Marketplace Client is accessible from the Eclipse Help menu.   We want to implement features that make MPC accessible from other sources
       <html:p>Specific items:
-      <html:ol>Zhtml:li>End user should be able to drag and drop a URL to a running Eclipse installation to start an MPC install for a particular product.<html:/li>
-      <html:/ol><html:/p></html:div></description>
+      <html:ol><html:li>End user should be able to drag and drop a URL to a running Eclipse installation to start an MPC install for a particular product.</html:li>
+      </html:ol></html:p></html:div></description>
       <committed/>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
       <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P3;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
