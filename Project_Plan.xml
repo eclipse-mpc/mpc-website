@@ -48,11 +48,7 @@
       <ol><li>End user should be able to drag and drop a URL to a running Eclipse installation to start an MPC install for a particular product.</li>
       <li>User should be able to share a URL to an MPC solution listing.  This url should be able to start an install if dragged to a running Eclipse.</li>
       </ol></p></description>
-      <committed>test text 
-      <ol>
-      <li>bugzilla="https://bugs.eclipse.org/bugs/show_bug.cgi?id=336156/></li>
-      <li>Users should be able to share solution listings thru a URL  bugzilla="https://bugs.eclipse.org/bugs/show_bug.cgi?id=336160" </li>
-      </ol></committed>
+      <committed>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
       <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P3;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
     </theme>
