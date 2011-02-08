@@ -42,7 +42,7 @@
     <preamble>
       <html:div>This release of MPC is focused on making it easier for more people to use Marketplace Client.</html:div>
     </preamble>
-    <theme name="Get More People to Use">
+    <theme name="Get More People to Use MPC">
       <description>The current version of MPC requires the user to know that the Marketplace Client is accessible from the Eclipse Help menu.   We want to implement features that make MPC accessible from other sources
       <p>Specific items:
       <ol><li>End user should be able to drag and drop a URL to a running Eclipse installation to start an MPC install for a particular product.</li>
