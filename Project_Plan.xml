@@ -44,11 +44,11 @@
     </preamble>
     <theme name="Get More People to Use">
       <description>The current version of MPC requires the user to know that the Marketplace Client is accessible from the Eclipse Help menu.   We want to implement features that make MPC accessible from other sources..</description>
-      <committed>test text</committed> 
+      <committed>test text 
       <ol>
       <li>bugzilla="https://bugs.eclipse.org/bugs/show_bug.cgi?id=336156/></li>
       <li>Users should be able to share solution listings thru a URL  bugzilla="https://bugs.eclipse.org/bugs/show_bug.cgi?id=336160" </li>
-      </ol>
+      </ol></committed>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
       <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P3;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
     </theme>
