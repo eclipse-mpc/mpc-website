@@ -44,11 +44,10 @@
     </preamble>
     <theme name="Get More People to Use MPC">
       <description><html:div>The current version of MPC requires the user to know that the Marketplace Client is accessible from the Eclipse Help menu.   We want to implement features that 
-      make MPC accessible from other sources.
-      <html:p>Specific items:
+      make MPC accessible from other sources. Specific items:
       <html:ol><html:li>End user should be able to drag and drop a URL to a running Eclipse installation to start an MPC install for a particular product.</html:li>
       <html:li>End user should be able to share via e-mail or twitter an Eclipse MPC solution.</html:li>   
-      </html:ol></html:p></html:div></description>
+      </html:ol></html:div></description>
     </theme>
     <theme name="Usability">
       <description><html:div>Make it easier for users to discover relevant solutions within MPC
