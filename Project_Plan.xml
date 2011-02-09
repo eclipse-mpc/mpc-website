@@ -50,11 +50,10 @@
       </html:ol></html:div></description>
     </theme>
     <theme name="Usability">
-      <description><html:div>Make it easier for users to discover relevant solutions within MPC
-      <html:p>Specific items:
+      <description><html:div>Make it easier for users to discover relevant solutions within MPC. Specific items:
       <html:ol><html:li>MPC should show tags that have been specified for a product listing.</html:li>
       <html:li>Different third party catalogs should be listed as icons at the bottom of the wizard and switching should be done via selecting the icon.</html:li>     
-      </html:ol></html:p></html:div></description>
+      </html:ol></html:div></description>
     </theme>
    <theme name="Eclipse 4">
       <description><html:div>MPC will be tested and supported on Eclipse 4.1 release.
@@ -62,11 +61,11 @@
     </theme>        
     <theme name="Other">
       <description><html:div>
-      <html:p>Specific items:
+      Specific items:
       <html:ol><html:li>Third party catalogs should be discovered from the Eclipse Marketplace server.</html:li>
       <html:li>MPC should be able to use alternative p2 repositories to resolve dependencies.</html:li>
       
-      </html:ol></html:p></html:div></description>
+      </html:ol></html:div></description>
     </theme>    
   </themes_and_priorities>
   <!--
