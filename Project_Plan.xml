@@ -43,20 +43,32 @@
       <html:div>This release of MPC is focused on making it easier for more people to use Marketplace Client.</html:div>
     </preamble>
     <theme name="Get More People to Use MPC">
-      <description><html:div>The current version of MPC requires the user to know that the Marketplace Client is accessible from the Eclipse Help menu.   We want to implement features that make MPC accessible from other sources
+      <description><html:div>The current version of MPC requires the user to know that the Marketplace Client is accessible from the Eclipse Help menu.   We want to implement features that 
+      make MPC accessible from other sources.
       <html:p>Specific items:
       <html:ol><html:li>End user should be able to drag and drop a URL to a running Eclipse installation to start an MPC install for a particular product.</html:li>
+      <html:li>End user should be able to share via e-mail or twitter an Eclipse MPC solution.</html:li>   
       </html:ol></html:p></html:div></description>
-      <committed/>
-      <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
-      <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P3;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
     </theme>
     <theme name="Usability">
-      <description>Implement high priority features that make MPC more usable for end-users. </description>
-      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P1;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
-      <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
-      <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P3;keywords=plan;query_format=advanced;keywords_type=allwords;product=MPC"/>
+      <description><html:div>Make it easier for users to discover relevant solutions within MPC
+      <html:p>Specific items:
+      <html:ol><html:li>MPC should show tags that have been specified for a product listing.</html:li>
+      <html:li>Different third party catalogs should be listed as icons at the bottom of the wizard and switching should be done via selecting the icon.</html:li>     
+      </html:ol></html:p></html:div></description>
     </theme>
+   <theme name="Eclipse 4">
+      <description><html:div>MPC will be tested and supported on Eclipse 4.1 release.
+      </html:div></description>
+    </theme>        
+    <theme name="Other">
+      <description><html:div>
+      <html:p>Specific items:
+      <html:ol><html:li>Third party catalogs should be discovered from the Eclipse Marketplace server.</html:li>
+      <html:li>MPC should be able to use alternative p2 repositories to resolve dependencies.</html:li>
+      
+      </html:ol></html:p></html:div></description>
+    </theme>    
   </themes_and_priorities>
   <!--
   <appendix name="Project Refactoring">
