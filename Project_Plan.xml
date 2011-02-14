@@ -63,7 +63,7 @@
     <theme name="Other">
       <description><html:div>
       Specific items:
-      <html:ol><html:li>Third party catalogs should be discovered from the Eclipse Marketplace server.</html:li>
+      <html:ol><html:li>Third party catalogs should be discovered from the Eclipse Marketplace server.  <html:a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=328605">[328605]</html:a></html:li>
       <html:li>MPC should be able to use alternative p2 repositories to resolve dependencies. <html:a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=332073">[332973]</html:a></html:li>
       <html:li>Splitting code and configuration of the MPC  <html:a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=313581">[313581]</html:a></html:li>
       
