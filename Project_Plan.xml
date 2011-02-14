@@ -51,7 +51,7 @@
     </theme>
     <theme name="Usability">
       <description><html:div>Make it easier for users to discover relevant solutions within MPC. Specific items:
-      <html:ol><html:li>MPC should show tags that have been specified for a product listing.</html:li>
+      <html:ol><html:li>MPC should show tags that have been specified for a product listing.<html:a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=336149">[336149]</html:a></html:li>
       <html:li>Different third party catalogs should be listed as icons at the bottom of the wizard and switching should be done via selecting the icon.<html:a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=336157">[336157]</html:a></html:li>     
  	  <html:li>Third party catalogs should be allowed to provide more branding, so the end user can see when they are in a different catalog. <html:a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=336159">[336159]</html:a></html:li>
       </html:ol></html:div></description>
