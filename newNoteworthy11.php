@@ -54,6 +54,10 @@
 			<br/>
 			<img src="images/newNoteworthy/1.1/tags.png"/>
 		</p>
+		
+		<p>
+		See also the <a href="newNoteworthy.php">MPC 1.0 New & Noteworthy</a>.
+		</p>
 	</div>
 	</div>
 	<?
